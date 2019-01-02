@@ -1,0 +1,30 @@
+body{
+    background-color: #ebebeb;
+    font-family: "roboto", sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.cabecalho{
+    border-top: 3px solid #96031A;
+    background-color: #FBFFFE;
+}
+.nav-cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo-principal .logo{
+    max-width: 140px;
+}
+
+.opcao{
+    text-decoration: none;
+    color: black;
+    font-family: "roboto slab light",sans-serif;
+    font-size: 1.2em;
+}
+
+
