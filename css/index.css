@@ -1,11 +1,13 @@
 body{
     background-color: #ebebeb;
-    font-family: "roboto", sans-serif;
+    font-family: "roboto Slab Regular", sans-serif;
 }
+/* header*/
 .container{
-    max-width: 90%;
+    max-width: 85%;
     margin: 0 auto;
 }
+
 .cabecalho{
     border-top: 3px solid #96031A;
     background-color: #FBFFFE;
@@ -27,4 +29,29 @@ body{
     font-size: 1.2em;
 }
 
+/*Destaque*/
+.destaque{
+    color: white;
+    background: url(../img/imagem/rede%20de%20computadores.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 
+}
+
+.destaque .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-destaque{
+    font-family: "Roboto slab Bold", sans-serif;
+    font-size: 2.8em;
+    padding-top: 1.9em;
+}
+.destaque p{
+    font-size: 1em;
+    padding-top: 1em
+}
