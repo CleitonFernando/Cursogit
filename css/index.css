@@ -1,10 +1,10 @@
 body{
     background-color: #ebebeb;
-    font-family: "roboto Slab Regular", sans-serif;
+    font-family: "Roboto Slab Regular";
 }
 /* header*/
 .container{
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0.1em;
 }
@@ -27,7 +27,7 @@ body{
 .opcao{
     text-decoration: none;
     color: black;
-    font-family: "roboto slab light",sans-serif;
+    font-family: "Roboto Slab light";
     font-size: 1.2em;
 }
 
@@ -49,7 +49,7 @@ body{
 }
 
 .subtitulo-destaque{
-    font-family: "Roboto Slab Bold", sans-serif;
+    font-family: "Roboto Slab Bold";
     font-size: 2.2em;
     padding-top: 7em;
 }
@@ -76,6 +76,30 @@ body{
 }
 
 /*sobre*/
-.sobre{
-    height: 100vh;
+
+.subtitulo{
+    font-family: "Roboto Slab Bold";
+    font-size: 2.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: underline;
+    padding: 0.5em;
+}
+.sub-container-sobre{
+    display: flex;
+}
+.sub-container-sobre section{
+    padding: 1em;
+    text-align: justify;
+}
+.subtitulo-h3{
+    font-family: "Roboto Slab Bold";
+    font-size: 30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.sub-container-sobre section p{
+    font-family: "Roboto Slab ",serif;
+    font-size: 1.2em;
 }
