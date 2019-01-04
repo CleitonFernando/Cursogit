@@ -1,4 +1,8 @@
 @media(max-width:500px){
+    .container{
+        margin: 0 auto;
+        padding: 1em;
+    }
     .nav-cabecalho{
          display: flex;
          justify-content: flex-start;
@@ -95,3 +99,10 @@
         display: none;
     }
 }
+
+/*@media(min-width:500px){
+    .destaque{
+        height: 100vh;
+    }
+}
+*/
