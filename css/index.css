@@ -1,12 +1,12 @@
 body{
     background-color: #ebebeb;
-    font-family: "Roboto Slab Regular";
+    font-family: "Roboto Slab",serif;
 }
 /* header*/
 .container{
-    max-width: 900px;
+    max-width: 980px;
     margin: 0 auto;
-    padding: 0.1em;
+    padding: 0.1%;
 }
 
 .cabecalho{
@@ -76,13 +76,18 @@ body{
 }
 
 /*sobre*/
+.sobre{
+       width: 100%;
+       height: 100vh;
+ 
+}
 
 .subtitulo{
-    font-family: "Roboto Slab Bold";
-    font-size: 2.2em;
-    text-transform: uppercase;
+    font-family: "Roboto Slab";
+    font-size: 2em;
+    text-transform: capitalize;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: underline;
     padding: 0.5em;
 }
@@ -93,13 +98,17 @@ body{
     padding: 1em;
     text-align: justify;
 }
+
 .subtitulo-h3{
     font-family: "Roboto Slab Bold";
-    font-size: 30px;
+    font-size: 1.5em;
     padding-top: 1em;
     padding-bottom: 1em;
+    font-weight: 600;
 }
 .sub-container-sobre section p{
-    font-family: "Roboto Slab ",serif;
-    font-size: 1.2em;
+    font-family: "Roboto Medium Slab",sans-serif;
+    line-height: 1.5;
+    font-size: 1em;
 }
+/*secao serviços*/
