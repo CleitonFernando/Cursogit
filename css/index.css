@@ -78,6 +78,7 @@ body{
 /*sobre*/
 .sobre{
        height: 100vh;
+       padding: 3em 0 6em 0;
 }
 
 .subtitulo{
@@ -143,7 +144,6 @@ body{
 .Servico-div:hover{
     box-shadow: white 2px 2px 10px;
         border: 1px solid black;
-
 }
 
 .Servico-div{
@@ -193,7 +193,44 @@ body{
 
 /*contato*/
 .contato{
-    display: block;
-    
+        height: 100vh;
+       padding: 3em 0 6em 0;
 }
+
+ form {
+     
+     width: 70%;
+     margin: 0.5em auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: .8em;
+    padding: 8px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.btn-enviar-contato{
+    margin-top: 1em;
+    background: #faa916 ;
+    border: 0;
+    padding: .6em;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    width: 10em;
+}
+.btn-enviar-contato:hover{
+        box-shadow: black 0px 2px 10px;
+}
+
 
