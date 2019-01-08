@@ -90,8 +90,16 @@
         left: 0;
         text-indent: 0;
     }
-    
+ 
     .sub-container-sobre {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .servicos{
+        height: auto;
+    }
+    .sub-container-servicos{
         display: flex;
         flex-direction: column;
     }
