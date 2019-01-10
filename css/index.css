@@ -210,7 +210,7 @@ body{
 input, textarea {
     width: 100%;
     margin-bottom: .8em;
-    padding: 8px 8px;
+    padding: 10px 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -233,4 +233,34 @@ input, textarea {
         box-shadow: black 0px 2px 10px;
 }
 
+.sub-container-contato-2{
+    display: flex;
+    justify-content: center;
+    padding: 3em 0 6em 0;
+}
+
+.container-contatos{
+        width: 13em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+        border-radius: 1em;
+        margin: 0.1em;
+        padding: 0.1em;
+        box-sizing: border-box;
+}
+
+/*contato rodape*/
+.rodape{
+    background-color: #FBFFFE;
+}
+
+.rodape .container{
+    display: flex;
+}
+.logo-rodape{
+    width: 120px;
+}
 

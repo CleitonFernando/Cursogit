@@ -90,7 +90,9 @@
         left: 0;
         text-indent: 0;
     }
- 
+    .sobre{
+        height: auto;
+    }
     .sub-container-sobre {
         display: flex;
         flex-direction: column;
@@ -103,8 +105,18 @@
         display: flex;
         flex-direction: column;
     }
+    .sub-container-contato-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
+@media(max-width:980px){
+    .container{
+        width: 90%;   
+    }
+}
 
 @media not all and (max-width:500px){
     .btn-menu-fechar,
