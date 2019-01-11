@@ -12,7 +12,7 @@ body{
 .cabecalho{
     border-top: 3px solid #96031A;
     background-color: #FBFFFE;
-    
+    width: 100%;
 }
 .nav-cabecalho{
     display: flex;
@@ -21,7 +21,7 @@ body{
     justify-content: space-between;
 }
 .titulo-principal .logo{
-    max-width: 140px;
+   max-width: 140px;
 }
 
 .opcao{
@@ -29,8 +29,15 @@ body{
     color: black;
     font-family: "Roboto Slab light";
     font-size: 1.2em;
+     padding: 1em;
 }
 
+.opcao:hover{
+    border: 0;
+    background-color: #96031A;
+    border-radius: 0.1em;
+    color: #FBFFFE;
+}
 /*Destaque*/
 .destaque{
     color: white;
@@ -92,6 +99,7 @@ body{
 }
 .sub-container-sobre{
     display: flex;
+    flex-wrap: wrap;
 }
 .sub-container-sobre section{
     padding: 1em;
@@ -111,7 +119,6 @@ body{
     font-size: 1em;
 }
 
-
 /*secao serviços*/
 
 .servicos{  
@@ -124,6 +131,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .Servico-div{
     color: black;
@@ -236,7 +244,9 @@ input, textarea {
 .sub-container-contato-2{
     display: flex;
     justify-content: center;
-    padding: 3em 0 6em 0;
+    padding: 2em 0 2em 0;
+    flex-wrap: wrap;
+    
 }
 
 .container-contatos{
@@ -252,15 +262,51 @@ input, textarea {
         box-sizing: border-box;
 }
 
-/*contato rodape*/
+/* rodape*/
+
 .rodape{
+    width: 100%;
     background-color: #FBFFFE;
+    
 }
 
-.rodape .container{
+.rodape .container .sub-container-rodape{
     display: flex;
-}
-.logo-rodape{
-    width: 120px;
+    justify-content:space-between;
+    align-items: center;
+
 }
 
+.logo-rodape img{
+    width: 100px ;
+}
+
+.nav-rodape a  {
+        padding: 0.3em;
+}
+
+.container-redesociais ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.container-redesociais ul a{
+    text-indent: -9999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.container-redesociais ul a[href*="facebook"] {
+    background-image: url(../img/icone/facebook2.png);
+  }
+  
+.container-redesociais ul a[href*="linkedin"] {
+    background-image: url(../img/icone/linkedin2.png);
+  }
+.container-redesociais ul a{
+    background-position: top;
+    background-size: 30px 30px;
+}

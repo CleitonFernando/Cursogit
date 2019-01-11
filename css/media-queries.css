@@ -93,23 +93,19 @@
     .sobre{
         height: auto;
     }
-    .sub-container-sobre {
-        display: flex;
-        flex-direction: column;
-        
-    }
+
     .servicos{
         height: auto;
     }
-    .sub-container-servicos{
-        display: flex;
-        flex-direction: column;
+    .contato{
+        height: auto;
     }
-    .sub-container-contato-2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .nav-rodape{
+        font-size:0.7em;
     }
+   
+    
+    
 }
 
 @media(max-width:980px){
