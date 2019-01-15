@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width"><!--tag de reponsividade-->
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>        
+      
         <link rel="stylesheet" href="css/reset.css" type="text/css">
         <link rel=stylesheet href="css/index.css" type="text/css">
         <link rel="stylesheet" href="css/media-queries.css">
@@ -19,15 +20,15 @@
                     
                     <button class="btn-menu-fechar">Fecha menu</button>
                     
-                        <a  class="opcao" href="#">Inicio</a>
-                        <a class="opcao" href="#">Sobre</a>
+                        <a  class="opcao" href="#destaque">Inicio</a>
+                        <a class="opcao" href="#sobre">Sobre</a>
                         <h1 class="titulo-principal"><img src="img/icone/logo.png" alt="logo da empresa" class="logo"></h1>
-                        <a class="opcao" href="#">Serviços</a>
-                        <a class="opcao" href="#">Contato</a>
+                        <a class="opcao" href="#servicos">Serviços</a>
+                        <a class="opcao" href="#contato">Contato</a>
                 </nav>
             </div>
         </header>
-        <section class="destaque">
+        <section class="destaque" id="destaque">
             <div class="container">
                 <h2 class="subtitulo-destaque">Solução ideal para sua empresa</h2>
                 <p class="p-destaque">A wls soluções é uma empresa de consultoria especializada em infraestrutura</p>
@@ -36,32 +37,35 @@
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="container">
                 <h2 class="subtitulo">sobre</h2>
-                <div class="sub-container-sobre">
-                    <section class = "secao-quem-somos">
+                <div class="sub-container-sobre  ">
+                    
+                    <section class = "secao-quem-somos anime">
                         <h3 class="subtitulo-h3">Quem somos</h3>
                         <p>A Wls soluções é uma empresa do ramo de tecnologia da informação e foi fundada no ano de 2018 na cidade de são Carlos por ex-aluno do curso de processamento de dados. Assim como seus fundador, a Wls soluções nasceu com seriedade e com olhar no futuro, consciente de que para fazer a diferença e inovar no cenário atual, valorizar ideias e pessoas deve ser uma prioridade.</p>
                     </section>
-                    <section class="secao-o-que-fazemos">
+                    <section class="secao-o-que-fazemos anime-2">
                         <h3 class="subtitulo-h3">O que fazemos</h3>
-                        <p>A Wls soluções é especializada em prestar serviços de consultoria em redes de computadores, instalação e configurações de servidores Linux. Nossa missão é utilizar as últimas tecnologias do mercado para garantir o sucesso de negócios que lidem com tecnologias também.</p>           
+                        <p>A Wls soluções é especializada em prestar serviços de consultoria em redes de computadores, instalação e configurações de servidores Linux. Nossa missão é utilizar as últimas tecnologias do mercado para garantir o sucesso de negócios que lidem com tecnologias também.</p>          
                     </section>
+                    
                 </div>
             </div>
         </section>
-        <section class="servicos">
+        <section class="servicos" id="servicos">
             <div class="container">
                 <h2 class="subtitulo">Serviços</h2>
-                <div class="sub-container-servicos">
-                    <div class="Servico-div">
+                <div class="sub-container-servicos  ">
+                   
+                    <div class="Servico-div anime" >
                         <img src="img/icone/network%202.png">
                             <h3 class="nome-servico">Consultoria</h3>
                             <p>Inplantação e manutenção em redes de computadores.</p>
                             <a class ="botao-do-servicos botao-estilos-1" href="#">saiba mais</a>
-                    </div>
-                    <div class="Servico-div ">
+                    </div> 
+                    <div class="Servico-div anime-2">
                             <img src="img/icone/linux.png">
                             <h3 class="nome-servico">linux</h3>
                             <p>Instalação, configurações e manutenção em servidores, banco de dados, servidor web, pabx ip, firewall e dns.</p>
@@ -70,24 +74,24 @@
                 </div>
             </div>
         </section>
-        <section class="contato">
+        <section class="contato" id="contato">
             <div class="container">
                 <h2 class="subtitulo">contato</h2>
                 <div class="sub-container-contato">
                     <form>
                         <input type="email" id="email" placeholder="Digite seu email...">
                         <input type="text" id="assunto" placeholder="Digite o assunto...">
-                        <textarea type="text" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."  > </textarea>
+                        <textarea type="text" id="mensagem" cols="20" rows="7" placeholder="Digite sua mensagem..."  > </textarea>
                         <button type="submit" id="btn-enviar" class="btn-enviar-contato">enviar</button>
                     </form>
                 </div>
                 <div class="sub-container-contato-2">
-                    <div class="container-contatos">
+                    <div class="container-contatos anime">
                         <img src="img/icone/email.png">
                         <h4>Email</h4>
                         <p>exemplo@gmail.com</p>
                     </div>
-                    <div class="container-contatos">
+                    <div class="container-contatos anime-2">
                         <img src="img/icone/telefone.png">
                         <h4>Telefone</h4>
                         <p>+55 16 9999-9999</p>
@@ -101,10 +105,10 @@
                 <div class="sub-container-rodape">
                     <h1 class="logo-rodape"><img src="img/icone/logo.png"></h1>
                     <nav class="nav-rodape">
-                         <a class="opcao" href="#">Inicio</a>
-                         <a class="opcao" href="#">Sobre</a>
-                         <a class="opcao" href="#">Serviços</a>
-                         <a class="opcao" href="#">Contato</a>
+                         <a class="opcao" href="#destaque">Inicio</a>
+                         <a class="opcao" href="#sobre">Sobre</a>
+                         <a class="opcao" href="#servicos">Serviços</a>
+                         <a class="opcao" href="#contato">Contato</a>
                     </nav>
                 </div>
                 <div class="container-redesociais">
@@ -116,7 +120,11 @@
                 
             </div>
         </footer>
+         <!-- <script src="js/jquery.js"></script>-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="js/jquery.js"></script>
         <script src="js/menu.js"></script>
+        <script src="js/animaScrool.js"></script>
+        
     </body>
 </html>

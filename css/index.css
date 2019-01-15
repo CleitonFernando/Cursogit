@@ -21,7 +21,8 @@ body{
     justify-content: space-between;
 }
 .titulo-principal .logo{
-   max-width: 140px;
+    max-width: 181px;
+    height: 110px;
 }
 
 .opcao{
@@ -146,13 +147,7 @@ body{
 .Servico-div:nth-child(2){
     background-color: #fff;
 }
-.Servico-div:nth-child(2):hover{
-    border: 1px solid black;
-}
-.Servico-div:hover{
-    box-shadow: white 2px 2px 10px;
-        border: 1px solid black;
-}
+
 
 .Servico-div{
     display: flex;
@@ -244,22 +239,30 @@ input, textarea {
 .sub-container-contato-2{
     display: flex;
     justify-content: center;
-    padding: 2em 0 2em 0;
+    padding: 1em 0 2em 0;
     flex-wrap: wrap;
     
 }
 
 .container-contatos{
-        width: 13em;
+        width: 11em;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 1em;
-        margin: 0.1em;
+        margin: 0.3em;
         padding: 0.1em;
         box-sizing: border-box;
+        background-color: #fff;
+}
+.container-contatos img{
+    max-width: 80px;
+}
+.contato p{
+
+    padding:0.1em;
 }
 
 /* rodape*/
@@ -278,7 +281,7 @@ input, textarea {
 }
 
 .logo-rodape img{
-    width: 100px ;
+    height:90px
 }
 
 .nav-rodape a  {
@@ -310,3 +313,22 @@ input, textarea {
     background-position: top;
     background-size: 30px 30px;
 }
+
+/*animacao scroll*/
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0); /*anima da esquerda para direita*/
+    transition: 0.6s;
+}
+.anime-2{
+     opacity: 0;
+    transform: translate3d(100px,0,0); /*anima da esquerda para direita*/
+    transition: 0.6s
+}
+
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
