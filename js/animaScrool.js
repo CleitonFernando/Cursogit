@@ -83,9 +83,27 @@ $('nav a').click(function(event){
         targetOffset = $(id).offset().top; /// essa funcao retorna o top e o left do elemento
     
         $('html,body').animate({
-            scrollTop:targetOffset - 100
+            scrollTop:targetOffset
         },1000)
     console.log(targetOffset);
+})
+
+$('.servicos a').click(function(event){
+    event.preventDefault();
+    
+    var posicaoscontato = $("#contato").offset().top;
+         $('body,html').animate({ 
+        scrollTop: posicaoscontato
+    },1000);
+})
+/*scrooll botao servicos*/
+$('#btn-servicos').click(function(event){
+        event.preventDefault();
+    
+    var posicaosservicos = $("#servicos").offset().top;
+         $('body,html').animate({ 
+        scrollTop: posicaosservicos
+    },1000);
 })
 
 /*
