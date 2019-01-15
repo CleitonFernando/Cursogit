@@ -1,7 +1,6 @@
 @media(max-width:500px){
     .container{
         margin: 0 auto;
-        padding: 1em;
     }
     .nav-cabecalho{
          display: flex;

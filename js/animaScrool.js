@@ -77,16 +77,25 @@ debounce = function(func, wait, immediate) {
 //Animar o scrooll até o alvo
 $('nav a').click(function(event){
     event.preventDefault();
+    
+    
     var id = $(this).attr('href')/// pega o valor
         targetOffset = $(id).offset().top; /// essa funcao retorna o top e o left do elemento
+    
         $('html,body').animate({
-            scrollTop:targetOffset
+            scrollTop:targetOffset - 100
         },1000)
     console.log(targetOffset);
 })
 
-
-
+/*
+function scrollPlacar(){
+   let posicaoPlacar =  $(".placar").offset().top; // offest ele nos a posicao do elemento da pagina top é a distancia do top da pagina
+    $('body').animate({ 
+        scrollTop: posicaoPlacar+"px" 
+    },1000);
+}
+*/
 
 
 
