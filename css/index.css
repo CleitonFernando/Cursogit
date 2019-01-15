@@ -10,7 +10,6 @@ body{
 }
 
 .cabecalho{
-    position:fixed;
     border-top: 3px solid #96031A;
     background-color: #FBFFFE;
     width: 100%;
